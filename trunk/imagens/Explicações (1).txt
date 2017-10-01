@@ -1,0 +1,23 @@
+Modificações layout- página inicial do projeto, tudo feito pelo adiministrador.
+Menu sanduíche - login para admin e outros projetos.
+Nepops layout - pagina inicial para tudo.
+Carrossel - gerenciado pelo administrador. 
+notícias em baixo - ordem cronológica.
+Nepops projeto pinab - formato antigo (não usar).
+Usar cores que remetem ao projeto na sua página dentro do site.
+Avenir - font.
+O nepops abriga todas as páginas.
+Botar um redimensionador de imagem ou algo que propicie a visualização do corte da mesma. Texto também deve ser
+editado pelo gerenciador.
+Projetos limitados à sua própria página. Vídeos são só links para url. Fotos funcionam como albúns, cria-se o albúm e as
+fotos vão dentro.
+Fotos com carrossel lateral para facilitar e não ter barra de rolagem pelo aumento de número das mesmas.
+Criação das contas se dá pela permissão do administrador pela criação de uma conta e senha pelo administrador - talvez se
+possa trocar a própria senha pelo projeto exterior -.
+Logo muda de acordo com o projeto.
+Barra para saber em qual sessão você está dentro do projeto.
+O administrador é capaz de censurar/apagar/modificar tudo.
+Vepop sem o footer que atualiza automaticamente com projetos. 
+Nepop com footer de projetos - Enfermagem na comunidade, PESPAF, Para além da Psicologia Clínica, Mais Saúde na Comunidade,
+PINAB, Palha SUS, ANEPS/MOPS-PB, GTEPS, ENEC -.
+Tirar marca do governo e botar a do SUS.

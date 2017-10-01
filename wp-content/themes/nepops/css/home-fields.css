@@ -1,0 +1,46 @@
+/*margin do bloco todo*/
+article.home-fields-post{
+	margin: 20px 0 30px 0;
+}
+
+/*altura dos posts*/
+.post-principal{
+	width: 48%;
+	height: 100%;
+	margin: 5px;
+	margin-bottom: -5px;
+}
+ .post-secundario1, .post-secundario2{
+ 	width: 48%;
+ 	height: 50%;
+ 	margin: 5px;
+ }
+ /*altura do bloco de imagens*/
+article.home-fields-post{
+	height: 400px;
+}
+/*estilização do link*/
+.home-fields-post a{
+	color: white;
+	font-family: 'Verdana', sans-serif;
+}
+
+/*posicionamento dos posts*/
+p.home-titulo-principal{
+	padding-top: 120px;
+	padding-left: 40px;
+	font-size: 1.6em;
+}
+p.home-titulo-secundario{
+	padding-left: 40px;
+	font-size: 1.3em;
+}
+#titulo-maior{
+	padding-top: 280px;
+	font-size: 1.75em;
+}
+
+/*hover das coisas*/
+.post-principal:hover, .post-secundario1:hover,.post-secundario2:hover{
+	opacity: 0.8;
+}

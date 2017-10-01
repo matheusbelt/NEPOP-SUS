@@ -1,0 +1,268 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.6
+* STEP-1 START @ 07:46:19
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.5.38 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.5.38
+DOC ROOT:	C:/Program Files (x86)/Ampps/www/nepops
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/nepops/installer.php
+--------------------------------------
+POST DATA
+--------------------------------------
+Array
+(
+    [accpet-warnings] => on
+    [action_ajax] => 1
+    [action_step] => 1
+    [archive_filetime] => current
+    [archive_manual] => 
+    [archive_name] => 20170518_nepopspb_acbca8922c5782db8175170905114706_archive.zip
+    [dbcharset] => utf8
+    [dbcollate] => utf8_general_ci
+    [dbhost] => 
+    [dbname] => 
+    [dbport] => 3306
+    [dbuser] => 
+    [logging] => 3
+)
+
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20170518_nepopspb_acbca8922c5782db8175170905114706_archive.zip
+SIZE:	21.09MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2439
+    [filename] => C:\Program Files (x86)\Ampps\www\nepops\20170518_nepopspb_acbca8922c5782db8175170905114706_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2017-10-01 19:47:03
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.171001194703.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 07:47:03 - RUNTIME: 43.7156 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 07:49:04
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+POST DATA
+--------------------------------------
+Array
+(
+    [action_ajax] => 2
+    [action_step] => 2
+    [archive_name] => 20170518_nepopspb_acbca8922c5782db8175170905114706_archive.zip
+    [cache_path] => 
+    [cache_wp] => 
+    [dbaction] => create
+    [dbcharset] => utf8
+    [dbcollate] => utf8_general_ci
+    [dbhost] => localhost
+    [dbmysqlmode] => DEFAULT
+    [dbmysqlmode_opts] => 
+    [dbname] => nepopis
+    [dbnbsp] => 
+    [dbport] => 3306
+    [dbuser] => root
+    [logging] => 3
+    [ssl_admin] => 
+    [ssl_login] => 
+)
+
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.35 -- Build Server: 5.7.14
+FILE SIZE:	database.sql (1.17MB) - installer-data.sql (1.17MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/Program Files (x86)/Ampps/www/nepops/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	
+QUERIES RAN:	2618
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (2)
+wp_links: (0)
+wp_options: (190)
+wp_postmeta: (2140)
+wp_posts: (201)
+wp_term_relationships: (21)
+wp_term_taxonomy: (10)
+wp_termmeta: (0)
+wp_terms: (10)
+wp_usermeta: (28)
+wp_users: (1)
+
+Removed '51' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 2.0908 sec.
+STEP-2 COMPLETE @ 07:49:06 - RUNTIME: 2.1092 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 07:50:27
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+POST DATA
+--------------------------------------
+Array
+(
+    [action_ajax] => 3
+    [action_step] => 3
+    [archive_name] => 20170518_nepopspb_acbca8922c5782db8175170905114706_archive.zip
+    [blogname] => Nepops - PB
+    [dbcharset] => utf8
+    [dbcollate] => utf8_general_ci
+    [dbhost] => localhost
+    [dbname] => nepopis
+    [dbport] => 3306
+    [dbuser] => root
+    [fullsearch] => 0
+    [json] => %7B%22pass%22%3A1%2C%22table_count%22%3A13%2C%22table_rows%22%3A2604%2C%22query_errs%22%3A0%7D
+    [logging] => 3
+    [path_new] => C:/Program Files (x86)/Ampps/www/nepops/
+    [path_old] => C:/wamp64/www/nepops/
+    [postguid] => 0
+    [siteurl] => http://localhost/nepops
+    [url_new] => http://localhost/nepops
+    [url_old] => http://localhost/nepops
+    [urlextended] => 0
+    [wp_password] => matheus95
+    [wp_username] => pochar
+)
+--------------------------------------
+SCANNED TABLES
+--------------------------------------
+Array
+(
+    [0] => wp_commentmeta
+    [1] => wp_comments
+    [2] => wp_duplicator_packages
+    [3] => wp_links
+    [4] => wp_options
+    [5] => wp_postmeta
+    [6] => wp_posts
+    [7] => wp_term_relationships
+    [8] => wp_term_taxonomy
+    [9] => wp_termmeta
+    [10] => wp_terms
+    [11] => wp_usermeta
+    [12] => wp_users
+)
+--------------------------------------
+KEEP PLUGINS ACTIVE
+--------------------------------------
+Array
+(
+    [0] => advanced-custom-fields-pro/acf.php
+    [1] => breadcrumb/breadcrumb.php
+    [2] => document-gallery/document-gallery.php
+    [3] => duplicator/duplicator.php
+    [4] => envira-gallery-lite/envira-gallery-lite.php
+    [5] => wordpress-importer/wordpress-importer.php
+)
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (138)
+	Scan => 0 of 138
+	UPDATE `wp_options` SET option_value = "a:3:{i:0;s:89:\"C:/Program Files (x86)/Ampps/www/nepops/wp-content/plugins/advanced-custom-fields/acf.php\";i:1;s:84:\"C:/Program Files (x86)/Ampps/www/nepops/wp-content/plugins/breadcrumb/breadcrumb.php\";i:2;s:0:\"\";}" WHERE option_id = "39"
+
+wp_postmeta~ (2140)
+	Scan => 0 of 2140
+wp_posts~ (201)
+	Scan => 0 of 201
+wp_term_relationships~ (21)
+	Scan => 0 of 21
+wp_term_taxonomy~ (10)
+	Scan => 0 of 10
+wp_termmeta^ (0)
+wp_terms~ (10)
+	Scan => 0 of 10
+wp_usermeta~ (28)
+	Scan => 0 of 28
+wp_users~ (1)
+	Scan => 0 of 1
+--------------------------------------
+Search1:	'http://localhost/nepops' 
+Change1:	'http://localhost/nepops' 
+Search2:	'C:/wamp64/www/nepops' 
+Change2:	'C:/Program Files (x86)/Ampps/www/nepops' 
+Search3:	'http:\/\/localhost\/nepops' 
+Change3:	'http:\/\/localhost\/nepops' 
+Search4:	'C:\/wamp64\/www\/nepops' 
+Change4:	'C:\/Program Files (x86)\/Ampps\/www\/nepops' 
+Search5:	'C%3A%2Fwamp64%2Fwww%2Fnepops%2F' 
+Change5:	'C%3A%2FProgram+Files+%28x86%29%2FAmpps%2Fwww%2Fnepops%2F' 
+Search6:	'http%3A%2F%2Flocalhost%2Fnepops' 
+Change6:	'http%3A%2F%2Flocalhost%2Fnepops' 
+Search7:	'C:\wamp64\www\nepops' 
+Change7:	'C:/Program Files (x86)/Ampps/www/nepops' 
+SCANNED:	Tables:13 	|	 Rows:2549 	|	 Cells:14020 
+UPDATED:	Tables:0 	|	 Rows:1 	|	 Cells:1 
+ERRORS:		0 
+RUNTIME:	0.546100 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+NEW WP-ADMIN USER: Username 'pochar' already exists in the database.  Unable to create new account 
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+
+STEP 3 COMPLETE @ 07:50:27 - RUNTIME: 0.5824 sec.
+
+
